@@ -31,7 +31,7 @@ public class CreateRentalCarRequest {
     @Min(1)
     private int deliveredCityId;
 
-    @NotNull
-    @Min(1)
-    private int userId;
+//    @NotNull
+//    @Min(1)
+//    private int userId;
 }

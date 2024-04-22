@@ -52,9 +52,9 @@ public class Rental {
 //    @Column(name = "confirmation_code")
 //    private String rentalConfirmationCode;
 
-    @ManyToOne
-    @JoinColumn(name = "user_id", nullable = false)
-    private User user;
+//    @ManyToOne
+//    @JoinColumn(name = "user_id", nullable = false)
+//    private User user;
 
 //    public void setRentalConfirmationCode(String rentalConfirmationCode) {
 //        this.rentalConfirmationCode = rentalConfirmationCode;

@@ -12,7 +12,7 @@ import java.util.List;
 public interface CityService {
     Result add(CreateCityRequest createCityRequest);
     DataResult<List<CityListResponse>> getAll();
-    DataResult<GetByIdCityResponse> getById();
+    DataResult<GetByIdCityResponse> getById(Long cityId);
     Result update(Long id, UpdateCityRequest updateCityRequest);
     Result delete(Long id);
 }
